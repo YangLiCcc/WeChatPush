@@ -8,34 +8,3 @@ logging:
 # 端口号
 server:
   port: 9999
-# 微信公众号相关
-wechat:
-  appId: wx3e7a34a022f6253c
-  appSecret: dbd496f27ddfd6abe3911af5daab1fa3
-  templateId: 3iOK8jePRewaoY0gXR0wRvR5suCWFTtJ9KB3XPE7iOQ
-# 推送相关
-push:
-  target:
-    test:
-      openId: omB-p5m3wKx5bQAbqajI71KCjVsc
-    openId: omB-p5lj_AttZXFlCmGFhzeOKTb8
-  relDate: 2020-05-18
-  fBirth: 2023-01-22
-  mBirth: 2023-06-12
-# 百度天气API相关
-weather:
-  AK: yjv1rZ5zUwNosbmfhZox9OY3X6qvtpMw
-  districtId: 330106
-  # 和风天气API
-  # 定位 浙江省杭州市西湖区
-  location: 101210113
-  # API KEY
-  key: 6ca3763f57144572bb7b67e47b48e7cd
-  baseUrl: https://devapi.qweather.com/v7/weather/3d?
-# 天行API相关
-api:
-  rainbow:
-    url: http://api.tianapi.com/caihongpi/index?key=
-  holiday:
-    url: http://api.tianapi.com/jiejiari/index?key=
-  key: 7bb0514f68fcbfedb34dbf5c4e653465
