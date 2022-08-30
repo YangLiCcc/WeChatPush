@@ -3,7 +3,8 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-!**/src/test/**
+!**/src/test/
+!src/main/java/com/yang/wechatpush/constants/**
 
 ### STS ###
 .apt_generated
